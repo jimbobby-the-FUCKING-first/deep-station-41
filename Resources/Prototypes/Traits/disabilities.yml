@@ -53,7 +53,7 @@
 - type: trait
   id: Pacifist
   category: Mental
-  points: 6
+  points: 16
   functions:
     - !type:TraitAddComponent
       components:
@@ -91,7 +91,7 @@
 - type: trait
   id: Uncloneable
   category: Physical
-  points: 1
+  points: 10
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -255,7 +255,7 @@
 - type: trait
   id: Clumsy
   category: Physical
-  points: 1
+  points: 10
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
