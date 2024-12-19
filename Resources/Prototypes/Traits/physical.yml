@@ -25,7 +25,7 @@
 - type: trait
   id: WillToDie
   category: Physical
-  points: 2
+  points: 12
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -73,7 +73,7 @@
 - type: trait
   id: GlassJaw
   category: Physical
-  points: 2
+  points: 12
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -236,7 +236,7 @@
 - type: trait
   id: MartialArtist
   category: Physical
-  points: -3
+  points: -1
   requirements:
   - !type:CharacterJobRequirement
     inverted: true
@@ -250,9 +250,9 @@
         - type: Boxer
           modifiers:
             coefficients:
-              Blunt: 1.5
-              Slash: 1.5
-              Piercing: 1.5
+              Blunt: 15
+              Slash: 15
+              Piercing: 15
 
 - type: trait
   id: Small
@@ -414,7 +414,7 @@
           animation: WeaponArcFist
           damage:
             types:
-              Blunt: 6
+              Blunt: 60
 
 - type: trait
   id: Spinarette
@@ -444,7 +444,7 @@
 - type: trait
   id: BionicArm
   category: Physical
-  points: -8
+  points: -1
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -466,7 +466,7 @@
 - type: trait
   id: PlateletFactories
   category: Physical
-  points: -10
+  points: -1
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -486,16 +486,16 @@
           damageCap: 200
           damage:
             groups:
-              Brute: -0.07
-              Burn: -0.07
-              Airloss: -0.07
-              Toxin: -0.07
-              Genetic: -0.07
+              Brute: -20.00
+              Burn: -20.00
+              Airloss: -20.00
+              Toxin: -20.00
+              Genetic: -20.00
 
 - type: trait
   id: DermalArmor
   category: Physical
-  points: -6
+  points: -1
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -514,7 +514,7 @@
 - type: trait
   id: CyberEyes
   category: Physical
-  points: -4
+  points: -1
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -540,7 +540,7 @@
 - type: trait
   id: FlareShielding
   category: Physical
-  points: -4
+  points: -1
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -637,7 +637,7 @@
 - type: trait
   id: CyberEyesOmni
   category: Physical
-  points: -3
+  points: -1
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -673,7 +673,7 @@
 - type: trait
   id: Mk3LoyaltyImplant
   category: Physical
-  points: -3
+  points: -1
   requirements:
     - !type:CharacterSpeciesRequirement
       inverted: true
@@ -686,7 +686,7 @@
 - type: trait
   id: Redshirt
   category: Physical
-  points: 8
+  points: 18
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -706,7 +706,7 @@
 - type: trait
   id: BrittleBoneDisease
   category: Physical
-  points: 10
+  points: 18
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -721,4 +721,4 @@
     - !type:TraitReplaceComponent
       components:
         - type: CritModifier
-          critThresholdModifier: -50
+          critThresholdModifier: -90
