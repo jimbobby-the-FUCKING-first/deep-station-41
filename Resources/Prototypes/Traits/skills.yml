@@ -93,7 +93,7 @@
 - type: trait
   id: Thieving
   category: Physical
-  points: -8
+  points: -1
   functions:
     - !type:TraitReplaceComponent
       components:
@@ -128,7 +128,7 @@
 - type: trait
   id: ParkourTraining
   category: Physical
-  points: -5
+  points: -1
   requirements:
     - !type:CharacterTraitRequirement
       inverted: true
