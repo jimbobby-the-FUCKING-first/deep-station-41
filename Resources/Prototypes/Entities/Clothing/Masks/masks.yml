@@ -92,7 +92,7 @@
   parent: ClothingMaskGasAtmos
   id: ClothingMaskGasCentcom
   name: CentCom gas mask
-  description: Oooh, gold and green. Fancy! This should help as you sit in your office.
+  description: Edward's god given right. None shall falter his stride.
   components:
   - type: Sprite
     sprite: Clothing/Mask/gascentcom.rsi
@@ -100,6 +100,17 @@
     sprite: Clothing/Mask/gascentcom.rsi
   - type: BreathMask
   - type: IngestionBlocker
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.05
+        Slash: 0.05
+        Piercing: 0.05
+        Heat: 0.5
+        Cold: 0.05
+        Shock: 0.05
+        Radiation: 0.05
+        Caustic: 0.05
 
 - type: entity
   parent: ClothingMaskGas
